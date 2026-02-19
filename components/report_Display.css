@@ -1,0 +1,17 @@
+
+.report-display {
+    height: 1vm;
+    width:10vm;
+    background: #293237;
+    border-radius: 0.5vw;
+    border-width: 0.1vw;
+    border-color:#42B5B0;
+}
+
+.report-display h2 {
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+    
+    margin: 0.3vw;
+}

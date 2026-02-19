@@ -1,0 +1,30 @@
+
+.leftButton, .rightButton, .moveButton {
+  background:linear-gradient(to bottom, #31A2C0,#42B5B0);
+  width: 6vw;
+  height: 2vw;
+  border-radius: 0.5vw;
+  z-index: 22;
+  font-size: 1vw;
+}
+
+.leftButton:hover, .rightButton:hover, .moveButton:hover {
+  background-color: linear-gradient(down, #42B5B0,#31A2C0);
+  cursor: pointer;
+}
+
+
+.reportButton {
+  width: 8vw;
+  height: 2vw;
+  background: #293237;
+  border-radius: 0.5vw;
+  border-width: 0.1vw;
+  border-color:#42B5B0;
+  font-size: 1vw;
+}
+
+.reportButton:hover {
+  background-color: linear-gradient(to bottom, #42B5B0,#31A2C0);
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.grid-container {
+  gap: 0.1vw;
+  background-color: #717173;
+  display: inline-grid;
+  border: #717173 solid 0.1vw;
+
+}
+
+.block-container {
+  position: relative;
+  width: 6vw;
+  height: 6vw;
+  z-index: 9;
+
+}
+
+
+.empty-block,
+.occupied-block {
+  width: 100%;
+  height: 100%;
+  background: #293237;
+  text-align: center;
+  font-size: 1vw;
+
+  
+}
+
+.occupied-block {
+  z-index: 2;
+}
+
+.empty-block:hover {
+  background: #3e4b54;
+  cursor: pointer;
+}
+
+
+.robot {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
